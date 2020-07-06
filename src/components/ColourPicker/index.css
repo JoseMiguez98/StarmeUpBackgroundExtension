@@ -1,0 +1,19 @@
+.colour-picker-form, .picker-wrapper {
+  flex-flow: column wrap;
+}
+
+.colour-picker-form, .enable-wrapper, .picker-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enable-wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.picker-wrapper > label, .input-wrapper {
+  padding: 5px 0;
+}
